@@ -4,6 +4,6 @@ var router = express.Router();
 var googleMapsAPI = require('../controller/googleMapsAPI');
 
 /* GET home page. */
-router.get('/', googleMapsAPI.hello);
+router.get('/', googleMapsAPI.getDuration);
 
 module.exports = router;
